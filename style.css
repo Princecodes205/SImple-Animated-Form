@@ -161,19 +161,22 @@ button {
 
 @media screen and (max-width: 900px) {
   form {
-    width: auto;
+    width: 60vh;
     height: auto;
     flex-direction: column;
     padding: 5rem 2rem 10rem;
     min-height: 80vh;
     gap: 2rem;
   }
-  .line-svg {
+
+  .elastic-line {
     width: 100%;
   }
+
   #character {
     transform: scale(0.6) translate(50%, 10%);
   }
+
   .contact-right {
     gap: 1rem;
   }
